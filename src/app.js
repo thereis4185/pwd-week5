@@ -1,5 +1,4 @@
-﻿// src/app.js
-const express = require('express');
+﻿﻿const express = require('express');
 const cors = require('cors');
 const restaurantsRouter = require('./routes/restaurants.routes');
 const submissionsRouter = require('./routes/submissions.routes');
@@ -10,9 +9,7 @@ const mongoose = require('mongoose');
 function createApp() {
   const app = express();
 
-  app.use(cors({
-    origin:'*',
-  }));
+  app.use(cors());
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
 

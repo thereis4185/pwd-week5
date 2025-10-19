@@ -1,5 +1,4 @@
-﻿// src/controllers/restaurants.controller.js
-const restaurantService = require('../services/restaurants.service');
+﻿﻿const restaurantService = require('../services/restaurants.service');
 const asyncHandler = require('../utils/asyncHandler');
 
 const normaliseMenu = (menu) => {

@@ -1,5 +1,4 @@
-﻿// server.js
-require('dotenv').config();
+﻿﻿require('dotenv').config();
 const { connectDB, closeDB } = require('./src/config/db');
 const createApp = require('./src/app');
 const { ensureSeededOnce } = require('./src/services/restaurants.service');
